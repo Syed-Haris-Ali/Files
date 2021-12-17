@@ -1,0 +1,58 @@
+1) Install Arduino Software
+
+2) Copy Link 
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+3)Arduino Software -> File -> Prefrence -> Link Paste
+
+4) Arduino Software -> Tools -> Board -> Boards Manager -> Search -> esp8266 -> version 2.7.4 -> Install.
+
+5)Arduino Software -> Tools -> Board -> ESP8266 Board -> Generic ESP8266 Module
+
+6)Arduino Software -> Tools -> com -> Port Check.
+
+7) My Documents -> Libraries -> Delete All (Folders Only)
+
+8)Google -> Search -> Firebase Extended Arduino Github -> scroll -> Version 5.13.1 -> Download as ZIP. ( https://github.com/bblanchon/ArduinoJson/tree/v5.13.1  )
+
+10) Google -> ( github.com/mobizt/firebase-esp8266 ) -> Download as ZIP 
+
+11) Arduino Software -> Sketch -> Include Library  -> add .ZIP Libray -> Add both libraries
+ 
+SETUP COMPLETE
+
+THEN SETUP FIRBASE
+
+DONE!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
