@@ -1,0 +1,61 @@
+1) Download Thony ide
+
+2) Download Frimware -> ( micropython.org ) -> Download -> ESP8266 -> 1Mb -> 1.17v Latest (  https://micropython.org/download/esp8266-1m/  )
+
+3) Plugin
+
+-> Thony -> Tools -> Interpreter -> ESP8266 -> Port -> Install and Update -> Select Frimware -> File -> Done!
+
+4) Thonny -> Manage Plugins -> esptool -> Install -> Done!
+
+5) Thonny -> NewFile -> Micro Controller Deveice.
+
+# Controlling LED (RELAY) with ESP32
+
+from machine improt pin 
+from time import sleep
+led = pin(2, Pin.OUT)
+
+for i in range(10):
+    led.value(1)
+    sleep(2)
+    led.value(0)
+    sleep(2)
+
+6) Save -> MicroPython Device.
+
+NOTE: Save file as main.py for AUTO START.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
